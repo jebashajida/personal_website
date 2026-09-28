@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "username": "jebashajida",
+  "checkedAt": "2026-09-28",
+  "source": "reviewed-selection",
+  "complete": false,
+  "repositories": [
+    {
+      "name": "SteadyStep",
+      "html_url": "https://github.com/jebashajida/SteadyStep",
+      "description": "Elderly Care Support System",
+      "language": "",
+      "homepage": "",
+      "updated_at": null,
+      "fork": false,
+      "private": false
+    },
+    {
+      "name": "Learning-web-technologies-fall2024-2025-sec-b",
+      "html_url": "https://github.com/jebashajida/Learning-web-technologies-fall2024-2025-sec-b",
+      "description": "Web-development coursework bringing together PHP exercises, lab tasks, and an IT labour marketplace project folder.",
+      "language": "PHP",
+      "homepage": "",
+      "updated_at": null,
+      "fork": false,
+      "private": false
+    },
+    {
+      "name": "Data-Science-Projects",
+      "html_url": "https://github.com/jebashajida/Data-Science-Projects",
+      "description": "Jupyter notebooks exploring customer churn prediction, fraud detection, and anomaly detection.",
+      "language": "Jupyter Notebook",
+      "homepage": "",
+      "updated_at": null,
+      "fork": false,
+      "private": false
+    },
+    {
+      "name": "Cvpr",
+      "html_url": "https://github.com/jebashajida/Cvpr",
+      "description": "mid",
+      "language": "Jupyter Notebook",
+      "homepage": "",
+      "updated_at": null,
+      "fork": false,
+      "private": false
+    }
+  ]
+}

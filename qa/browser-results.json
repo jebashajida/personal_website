@@ -1,0 +1,260 @@
+{
+  "method": "Isolated Chromium render with local asset resolver, equivalent module scopes, and fixture-based GitHub responses. HTTP server separately tested by Node.",
+  "checks": [
+    {
+      "name": "Default hero is approved avatar, not the old sculpture",
+      "passed": true
+    },
+    {
+      "name": "Avatar image loads completely",
+      "passed": true
+    },
+    {
+      "name": "Static avatar does not initialize or pretend to be WebGL",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion preference starts avatar motion paused",
+      "passed": true
+    },
+    {
+      "name": "Final CV headline appears",
+      "passed": true
+    },
+    {
+      "name": "All four CV download buttons point to the final PDF",
+      "passed": true
+    },
+    {
+      "name": "Final CV download byte source equals supplied file",
+      "passed": true
+    },
+    {
+      "name": "NGX experience dates are displayed",
+      "passed": true
+    },
+    {
+      "name": "Bisorgo experience uses 2026, not the older CV dates",
+      "passed": true
+    },
+    {
+      "name": "Nine curated projects render",
+      "passed": true
+    },
+    {
+      "name": "Desktop has no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "Avatar motion button changes state",
+      "passed": true
+    },
+    {
+      "name": "3D study view still exists",
+      "passed": true
+    },
+    {
+      "name": "WebGL fallback disables unsupported controls",
+      "passed": true
+    },
+    {
+      "name": "Returning to avatar clears WebGL-unavailable message",
+      "passed": true
+    },
+    {
+      "name": "Dark theme switches",
+      "passed": true
+    },
+    {
+      "name": "Project filter software",
+      "passed": true
+    },
+    {
+      "name": "Project filter graphics",
+      "passed": true
+    },
+    {
+      "name": "Project filter ml",
+      "passed": true
+    },
+    {
+      "name": "Project filter all",
+      "passed": true
+    },
+    {
+      "name": "HEKS project dialog opens with final CV details",
+      "passed": true
+    },
+    {
+      "name": "No invented HEKS live-demo link",
+      "passed": true
+    },
+    {
+      "name": "Escape closes dialog and restores focus",
+      "passed": true
+    },
+    {
+      "name": "Project dialog steadystep",
+      "passed": true
+    },
+    {
+      "name": "Project dialog city-landscape",
+      "passed": true
+    },
+    {
+      "name": "Project dialog customer-churn",
+      "passed": true
+    },
+    {
+      "name": "Project dialog web-technologies",
+      "passed": true
+    },
+    {
+      "name": "Project dialog fraud-detection",
+      "passed": true
+    },
+    {
+      "name": "Project dialog cvpr-notebooks",
+      "passed": true
+    },
+    {
+      "name": "Project dialog animal-classification",
+      "passed": true
+    },
+    {
+      "name": "Project dialog student-classification",
+      "passed": true
+    },
+    {
+      "name": "Offline GitHub refresh retains saved repositories",
+      "passed": true
+    },
+    {
+      "name": "Successful GitHub refresh updates cards",
+      "passed": true
+    },
+    {
+      "name": "GitHub descriptions are escaped, not executed",
+      "passed": true
+    },
+    {
+      "name": "Repository homepage button is present only when supplied",
+      "passed": true
+    },
+    {
+      "name": "GitHub show-more lists the remaining repositories",
+      "passed": true
+    },
+    {
+      "name": "GitHub rate limit preserves cards and explains failure",
+      "passed": true
+    },
+    {
+      "name": "Refresh button re-enables after failure",
+      "passed": true
+    },
+    {
+      "name": "SVG density control works",
+      "passed": true
+    },
+    {
+      "name": "SVG remix changes artwork",
+      "passed": true
+    },
+    {
+      "name": "SVG export creates a real download",
+      "passed": true
+    },
+    {
+      "name": "SCADA simulation high alarm works",
+      "passed": true
+    },
+    {
+      "name": "SCADA simulation low alarm works",
+      "passed": true
+    },
+    {
+      "name": "Tank reset restores default state",
+      "passed": true
+    },
+    {
+      "name": "Pump simulation updates the level",
+      "passed": true
+    },
+    {
+      "name": "LinkedIn and GitHub profile links preserved",
+      "passed": true
+    },
+    {
+      "name": "Mount/dispose/remount leaves one header and one hero",
+      "passed": true
+    },
+    {
+      "name": "Remount does not duplicate click handlers",
+      "passed": true
+    },
+    {
+      "name": "No horizontal page overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "Avatar fits viewport at 320px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal page overflow at 360px",
+      "passed": true
+    },
+    {
+      "name": "Avatar fits viewport at 360px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal page overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "Avatar fits viewport at 390px",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu opens",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu closes after following a section link",
+      "passed": true
+    },
+    {
+      "name": "No horizontal page overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "Avatar fits viewport at 768px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal page overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "Avatar fits viewport at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No horizontal page overflow at 1920px",
+      "passed": true
+    },
+    {
+      "name": "Avatar fits viewport at 1920px",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript page exceptions in isolated browser runs",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "passed": 63,
+  "failed": 0
+}
